@@ -37,6 +37,10 @@ footer {
     .displaynone {
         display: none;
     }
+    .whiteboder {
+        padding: 2%;
+        background-color: white;
+    }
     #hompagemenu {
         margin: 0 auto;
         padding: 0 0;
@@ -53,7 +57,7 @@ footer {
         padding: 5% 0;
         margin: 0 auto;
         overflow: auto;
-        background-color: bisque;
+        background-color: #EAEAEA;
     }
     #aboutus p {
         text-align: center;
@@ -117,21 +121,21 @@ footer {
     /* ----- 【 創作目的 】 ----- */
     #creativepurpose {
         padding: 15% 0;
-        background-image: url(../img/backgroundimg/creativepurpose.png);
+        background-image: url(../img/backgroundimg/1.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
     #creativepurposebg {
         padding: 5%;
         width: 100%;
-        background-color: beige;
     }
     #creativepurposebgtitle {}
     /* ----- 【 系列活動 】 ----- */
     #allactivity {
-        padding: 8% 0;
-        padding-left: 30%;
         overflow: auto;
+        background-image: url(../img/backgroundimg/2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     #allactivityleft {
         text-align: center;
@@ -143,25 +147,38 @@ footer {
     #picturestroy {
         padding: 2% 0;
         overflow: auto;
-        background-color: azure;
+        background-image: url(../img/backgroundimg/3.jpg);
+        background-size: cover;
     }
     /* ----- 【 執行團隊 】 ----- */
     #ourteam {
         padding: 2% 18%;
+        background-image: url(../img/backgroundimg/5.png);
     }
     #Exhibitioninformation {
         padding: 3%;
     }
     #informationbackground {
         padding: 2% 10%;
-        background-color: darkgray;
+        background-color: #EAEAEA;
     }
     /* ----- 【 周邊商品 】 ----- */
     #commodity {
         padding: 2%;
+        background-image: url(../img/backgroundimg/7.png);
+        background-size: cover;
+    }
+    #commoditypadding {
+        padding: 5%;
     }
     #commodity2 {
-        padding: 2%;
+        padding: 5%;
+        background-image: url(../img/backgroundimg/8.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #commoditypadding {
+        padding: 5%;
     }
     #commodityup {}
     #commoditydown {}
