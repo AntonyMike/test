@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 微軟正黑體;
+}
+
+div {
+    width: auto;
+    height: auto;
+}
+
+footer {
+    padding: 1%;
+    color: white;
+    background-color: darkgray;
+}
+
+@media screen and (min-width:600px) {
+    .pull-center {
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
+        *display: inline;
+        /* ie7 fix */
+        *zoom: 1;
+        /* hasLayout ie7 trigger */
+        vertical-align: top;
+    }
+    .navbar-inner {
+        text-align: center;
+    }
+    .wordtitle {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .displaynone {
+        display: none;
+    }
+    #hompagemenu {
+        margin: 0 auto;
+        padding: 0 0;
+        overflow: auto;
+    }
+    #banner {
+        margin: 0px;
+        padding: 0px;
+        font-size: 0px;
+        /*div 留白bug*/
+    }
+    /* ----- 【 關於我們 】----- */
+    #aboutus {
+        padding: 5% 0;
+        margin: 0 auto;
+        overflow: auto;
+        background-color: bisque;
+    }
+    #aboutus p {
+        text-align: center;
+        font-size: 20px;
+    }
+    #youtubeplayer {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        margin-bottom: 2%;
+    }
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .GrayScale img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .GrayScale:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+    .membername {
+        float: top;
+    }
+    .carousel-caption {
+        display: none;
+    }
+    #youtubeplayerHW {
+        width: 80%;
+        height: 42.5%;
+    }
+    #aboutuscontent p {
+        font-size: 10px;
+    }
+    /* Youtube */
+    .video-container {
+        position: relative;
+        padding-bottom: 47%;
+        padding-top: 35px;
+        height: 0;
+        overflow: hidden;
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    /* ----- 【 遊戲 】 ----- */
+    #game {
+        padding: 1%;
+    }
+    /* ----- 【 創作目的 】 ----- */
+    #creativepurpose {
+        padding: 15% 0;
+        background-image: url(../img/backgroundimg/creativepurpose.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #creativepurposebg {
+        padding: 5%;
+        width: 100%;
+        background-color: beige;
+    }
+    #creativepurposebgtitle {}
+    /* ----- 【 系列活動 】 ----- */
+    #allactivity {
+        padding: 8% 0;
+        padding-left: 30%;
+        overflow: auto;
+    }
+    #allactivityleft {
+        text-align: center;
+    }
+    #allactivitycenter {
+        letter-spacing: 20px;
+    }
+    /* ----- 【 繪本故事 】 ----- */
+    #picturestroy {
+        padding: 2% 0;
+        overflow: auto;
+        background-color: azure;
+    }
+    /* ----- 【 執行團隊 】 ----- */
+    #ourteam {
+        padding: 2% 18%;
+    }
+    #Exhibitioninformation {
+        padding: 3%;
+    }
+    #informationbackground {
+        padding: 2% 10%;
+        background-color: darkgray;
+    }
+    /* ----- 【 周邊商品 】 ----- */
+    #commodity {
+        padding: 2%;
+    }
+    #commodity2 {
+        padding: 2%;
+    }
+    #commodityup {}
+    #commoditydown {}
+    #order {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:599px) {
+    #allactivity {
+        padding: 8% 0;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #allactivity {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #allactivityleft {
+        font-size: 12px;
+    }
+    #allactivityleft h3 {
+        font-size: 30px;
+    }
+}
